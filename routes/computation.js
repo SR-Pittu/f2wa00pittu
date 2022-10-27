@@ -8,11 +8,11 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
 
-    var n1=Math.floor(Math.random()*10)
+    var n1=Math.floor(Math.random()*10/100)
 
     var n2=(Math.random()*10)
 
-    var n3=Math.floor(Math.random()*10)
+    var n3=Math.floor(Math.random()*10/100)
 
     var froundFunction=Math.fround(n1);
 
