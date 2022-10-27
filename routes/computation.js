@@ -14,9 +14,9 @@ router.get('/', function(req, res, next) {
 
     var n3=(Math.random())
 
-    var froundFunction=Math.fround(n1*10.993)
+    var froundFunction=Math.fround(n1)
 
-    var roundFunction=Math.round(n3*10.5)
+    var roundFunction=Math.round(n3)
 
 
 
